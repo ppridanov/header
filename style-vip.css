@@ -9,8 +9,8 @@ button {
 
 header {
     max-width: 100vw;
-    box-shadow: 0px 5px 10px rgba(43, 93, 168, 0.15);
-    background-color: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    background-color: #323232;
     height: 70px;
 }
 
@@ -56,11 +56,12 @@ nav .navigation__item .header__notification {
 nav .navigation__item p {
     text-align: center;
     margin-top: 25px;
+    color: white;
 }
 
-.navigation__item:hover {
-    border-bottom: 2px solid #2B5DA8;
-    color: #2B5DA8;
+nav .navigation__item:hover {
+    border-bottom: 2px solid #E1BE88;
+    color: #E1BE88!important;
 }
 
 nav .button__login {
@@ -76,8 +77,8 @@ nav .button__login {
 
 nav .container__lang .button__lang {
     border: none;
-    background-color: #FFFFFF;
-    filter: drop-shadow(0px 5px 20px rgba(43, 93, 168, 0.2));
+    background-color: #323232;
+    filter: drop-shadow(0px 5px 10px rgba(77, 77, 77, 0.2));
     border-radius: 50px;
     width: 40px;
     height: 40px;
@@ -85,12 +86,12 @@ nav .container__lang .button__lang {
     margin-right: 15px;
     font-size: 14px;
     font-weight: 600;
-    color: #2B5DA8;
+    color: #E1BE88;
 }
 
 nav .container__menu .button__menu {
     border: none;
-    background-color: #FFFFFF;
+    background-color: #323232;
 }
 
 nav .container__notify {
