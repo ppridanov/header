@@ -21,6 +21,7 @@ header .container__items {
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    margin: auto;
 }
 
 header nav {
