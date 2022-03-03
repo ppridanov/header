@@ -37,6 +37,7 @@ nav .navigation__item {
     position: relative;
     display: flex;
     cursor: pointer;
+    color: white;
 }
 
 nav .navigation__item .header__notification {
@@ -56,7 +57,7 @@ nav .navigation__item .header__notification {
 nav .navigation__item p {
     text-align: center;
     margin-top: 25px;
-    color: white;
+    /* color: white; */
 }
 
 nav .navigation__item:hover {
