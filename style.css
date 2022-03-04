@@ -14,34 +14,31 @@ header {
     height: 70px;
 }
 
-header .container__items {
-    max-width: 1440px;
+.container__items {
+    max-width: 1140px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    margin: auto;
 }
 
-header nav {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-nav .navigation__item {
-    padding-lefT: 15px;
-    padding-right: 15px;
-    height: 70px;
-    position: relative;
-    display: flex;
-    cursor: pointer;
-}
-
-nav .navigation__item .header__notification {
+.container__news {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.header__notification {
+    display: flex;
     padding: 3px 5px;
     height: 10px;
     border-radius: 10px;
@@ -50,20 +47,11 @@ nav .navigation__item .header__notification {
     color: #000000;
     font-weight: 500;
     text-align: center;
-    margin-top: 15px;
+    margin-top: -15px;
+    margin-left: -12px;
 }
 
-nav .navigation__item p {
-    text-align: center;
-    margin-top: 25px;
-}
-
-.navigation__item:hover {
-    border-bottom: 2px solid #2B5DA8;
-    color: #2B5DA8;
-}
-
-nav .button__login {
+.button__login {
     background-color: #FECF10;
     width: 120px;
     height: 50px;
@@ -74,7 +62,7 @@ nav .button__login {
     border: none;
 }
 
-nav .container__lang .button__lang {
+.button__lang {
     border: none;
     background-color: #FFFFFF;
     filter: drop-shadow(0px 5px 20px rgba(43, 93, 168, 0.2));
@@ -88,15 +76,32 @@ nav .container__lang .button__lang {
     color: #2B5DA8;
 }
 
-nav .container__menu .button__menu {
+.button__menu {
     border: none;
     background-color: #FFFFFF;
 }
 
-nav .container__notify {
+.button__notify {
     display: flex;
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
+    background-color: white;
+    bordeR: none;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+a:hover {
+    border-bottom: 2px solid #2B5DA8;
+    color: #2B5DA8!important;
+    height: 70px;
 }
